@@ -93,6 +93,7 @@ a:visited{text-decoration:none;
 a:hover{
     background-color: pink;
     transition-duration: 1s;
+    transition-delay: 0.01ms;
 }
 
 @media screen and (max-width: 768px) {
