@@ -25,6 +25,16 @@
     justify-content: center;
 }
 
+.centrado {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .contenedor-imagenes {
     display: flex;
     padding: 10px;
@@ -32,9 +42,9 @@
 }
 
 .imagen-suelta {
-    width: 300px;
+    width: 750px;
     padding: 10px;
-    height: 300px;
+    height: 750px;
 }
 
 nav div {
