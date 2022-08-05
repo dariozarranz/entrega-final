@@ -47,13 +47,7 @@
     height: 500px;
 }
 
-nav div {
-    justify-content: center;
-}
 
-nav div ul li {
-    align-items: center;
-}
 
 .imagen-logo {
     width: 25%;
@@ -68,8 +62,8 @@ nav div ul li {
 }
 
 .img-footer{
-    width: 40px;
-    height: 40px;
+    width: $imagen-size;
+    height: $imagen-size;
     margin-right: 30px;
     margin-top: 5px;
 }
@@ -135,10 +129,6 @@ a:hover{
     }
     
     .recuadrado{
-        border-top: solid 5px #f44336;
-        border-bottom:solid 5px #8bc34a;
-        border-left: solid 5px #ffeb3b;
-        border-right: solid 5px #ffeb3b;
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr;
