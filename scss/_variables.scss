@@ -1,1 +1,23 @@
 $imagen-size: 40px;
+
+
+$botones-forms: ( 
+        primario: #6a90a7,
+        secundario:  #3415e6,
+        error: #bb2722
+); 
+@each $boton, $color in $botones-forms {
+   .boton-#{$boton} {
+       background-color: $color;
+   }
+}
+
+@mixin reseteo-html ($margen,$espaciado,$estilo,$decoracion,$bordes,$fuera){
+    margin: $margen;
+    padding: $espaciado;
+    list-style: $estilo;
+    text-decoration: $decoracion;
+    border: $bordes;
+    outline: $fuera; 
+
+}

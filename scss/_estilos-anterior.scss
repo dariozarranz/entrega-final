@@ -1,11 +1,9 @@
 *{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	border: none;
-	outline: none;
+	@include reseteo-html (0, 0, none, none, none, none)
 }
+
+
+
 
 .lista-horizontal {
     display: inline;
@@ -85,9 +83,8 @@
 }
 
 .contenedor-imagenes-producto{
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
+    @extend .contenedor-imagenes;
+    background-color: pink;
 }
 
 a:visited{text-decoration:none;
